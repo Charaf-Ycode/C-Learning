@@ -3,7 +3,7 @@
 int main(){
       char Nom[20];
       char Prenom[20];
-      char Email[15];
+      char Email[30];
       int age;
       char sexe[2];
     printf("Saisie Votre Nom:");
@@ -16,6 +16,9 @@ int main(){
     scanf("%s",Email);
     printf("Saisie Votre Sexe (M/F):");
     scanf("%s", sexe);
+
+
+    printf("Bonjour %s %s, tu as %d ans, ton sexe est %s et ton email est %s\n",Nom, Prenom, age, sexe, Email);
     
     
     
