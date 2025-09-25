@@ -10,7 +10,7 @@ char name[n][20];
         scanf("%s",name[i]);    
     
     }for(int i=0;i<n;i++){
-        printf("%s\n",name[i]);
+        printf("Votre Tableau de Prenom:%s\n",name[i]);
     }
 return 0;
 
